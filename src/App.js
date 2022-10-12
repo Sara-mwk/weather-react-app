@@ -12,7 +12,7 @@ function App() {
         <h1>
           Hello World!!!
         </h1>
-        <Weather />
+        <Weather city="New York" />
       </header>
     </div>
   );
