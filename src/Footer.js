@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="Footer">
       <br />
       This project was{" "}
-      <a href="https://github.com/Sara-mwk/weather-app-1">open-sourced</a> by
+      <a href="https://github.com/Sara-mwk/weather-react-app">open-sourced</a> by
       Sara Mouwakee{" "}
     </footer>
   );
