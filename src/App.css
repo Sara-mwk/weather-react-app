@@ -1,38 +1,77 @@
 .App {
+  
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 6px;
+  
+    display: block;
+    margin: 30px auto;
+    max-width: 600px;
+    opacity: 0.93;
+    margin-bottom: 0%;
+    position: inherit;
+  
+}
+
+.weather {
+  margin: 5px;
+}
+
+.city {
+  font-size: 30px;
+  position: relative;
+  left: 45px;
+  top: -5px;
+}
+
+.date-and-time {
+  font-family: Georgia;
+  font-size: 15px;
+  max-width: 160px;
+  padding: 4px;
+  position: relative;
+  left: 26px;
+  top: -10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Temperature {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.temp {
+  font-size: 40px;
+  margin: 0;
+  position: relative;
+  left: 50px;
+  top: -15px;
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon {
+  font-size: 90px;
+  margin: 0;
+  position: relative;
+  left: 260px;
+  top: -200px;
 }
 
-.App-link {
-  color: #61dafb;
+.conditions {
+  margin: 0;
+  position: relative;
+  left: 220px;
+  top: -190px;
+}
+ul {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer {
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
 }
