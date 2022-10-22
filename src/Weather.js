@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function Weather(props) {
 
 function handleResponse(response) {
-alert(`The weather in New York is  Math.round(${response.data.main.temp})°C`);
+//t(`The weather in New York is  ${response.data.main.temp}°C`);
 }   
 
 let apiKey = "8cfa4dd3ccafa97ae01716474ab8d486";
